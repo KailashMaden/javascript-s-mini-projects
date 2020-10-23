@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1 class="title">Binary To Text</h1>
+        <button type="button" class="switch" data-type="binary">Switch</button>
+        <form>
+          <div class="input">
+            <textarea
+              name="input"
+              id="input"
+              cols=" 30"
+              rows="10"
+              data-type="binary"
+              placeholder="Input Binary Code..."
+            ></textarea>
+          </div>
+          <button type="submit">Convert</button>
+          <div id="output">Text Output..</div>
+        </form>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
